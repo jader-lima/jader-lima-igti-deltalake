@@ -9,3 +9,11 @@ variable "ambiente" {
 variable "numero_conta" {
   default = "043843570961"
 }
+
+variable "aws_region" {
+  default = "us-west-2"
+}
+
+variable "lambda_function_name" {
+  default = "IGTIexecutaEMR"
+}
